@@ -1,0 +1,73 @@
+{
+  "memory_bank": {
+    "enabled": true,
+    "path": "memory_bank",
+    "description": "Banco de memoria principal del proyecto Constructoken",
+    "files": {
+      "project_brief": {
+        "path": "memory_bank/project_brief.md",
+        "description": "Descripción general y objetivos del proyecto",
+        "priority": 1
+      },
+      "product_context": {
+        "path": "memory_bank/product_context.md",
+        "description": "Contexto del producto, visión y propuesta de valor",
+        "priority": 4
+      },
+      "active_context": {
+        "path": "memory_bank/active_context.md",
+        "description": "Estado actual del proyecto y próximos pasos",
+        "priority": 3
+      },
+      "hoja_requerimientos": {
+        "path": "memory_bank/hoja_requerimientos.md",
+        "description": "Requerimientos detallados del sistema",
+        "priority": 2
+      },
+      "database_schema": {
+        "path": "memory_bank/database_schema.md",
+        "description": "Diseño y estructura de la base de datos",
+        "priority": 4,
+        "type": "technical",
+        "related_files": [
+          "tech_context.md"
+        ]
+      },
+      "system_patterns": {
+        "path": "memory_bank/system_patterns.md",
+        "description": "Patrones de diseño y arquitectura",
+        "priority": 5
+      },
+      "tech_context": {
+        "path": "memory_bank/tech_context.md",
+        "description": "Contexto técnico y stack tecnológico",
+        "priority": 6
+      },
+      "design_system": {
+        "path": "memory_bank/design-system.md",
+        "description": "Sistema de diseño, componentes UI y flujos de la aplicación",
+        "priority": 7
+      },
+      "progress": {
+        "path": "memory_bank/progress.md",
+        "description": "Registro de progreso y cambios",
+        "priority": 8
+      }
+    },
+    "metadata": {
+      "last_updated": "2024-04-02",
+      "version": "1.0",
+      "project_name": "Constructoken"
+    }
+  },
+  "docs_extras": {
+    "enabled": false,
+    "path": "docs_extras",
+    "description": "Documentación adicional del proyecto"
+  },
+  "settings": {
+    "auto_load": true,
+    "refresh_interval": "1h",
+    "priority_threshold": 5
+  }
+}
